@@ -68,7 +68,7 @@ st.markdown(
     <div style='text-align: center; font-size: 14px; color: gray;'>
         Made with ❤️ by <b>Aaditya Goyal</b><br>
        📧 Email: <a href='mailto:aadityagoyal80@gmail.com'>aadityagoyal80@gmail.com</a><br>
-        🔗 LinkedIn: <a href='https://www.linkedin.com/in/Aaditya Goyal/' target='_blank'>linkedin.com/in/Aaditya Goyal</a>
+        🔗 LinkedIn: <a href='https://www.linkedin.com/in/aaditya-goyal-aa56b2321/' target='_blank'>linkedin.com/in/aaditya-goyal-aa56b2321</a>
     </div>
     """,
     unsafe_allow_html=True
