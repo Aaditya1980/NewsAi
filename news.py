@@ -56,6 +56,11 @@ for entry in feed.entries[:10]:
 
 
     cleaned_desc = clean_html(desc)
+    
+    st.write(cleaned_desc)
+
+   
+    st.markdown(f"[🔗 Read full article]({entry.link})")
 
     st.markdown("---")
 st.markdown(
@@ -70,8 +75,4 @@ st.markdown(
 )
 
 
-    # Show preview
-    st.write(cleaned_desc)
-
-    # Link to original article
-    st.markdown(f"[🔗 Read full article]({entry.link})")
+   
