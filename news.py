@@ -29,7 +29,8 @@ if "articles" in data:
         st.caption(article["publishedAt"])
 
         if article.get("image"):
-            st.image(article["image"], width=500)
+            st.image(article["image"], use_container_width=True)
+
 
         st.write(article["description"] or "No description available.")
         st.markdown(f"[🔗 Read full article]({article['url']})")
