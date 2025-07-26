@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="🗞️ News AI", layout="wide")
+st.set_page_config(page_title="🗞️ NewsNudge", layout="wide")
 
-st.title("🗞️ News AI - India Edition")
+st.title("🗞️ NewsNudge - India Edition")
 st.write("Stay informed with top news from Indian sources.")
 
 
